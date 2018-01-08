@@ -21,7 +21,6 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         mWebView = (ProgressWebView) findViewById(R.id.web_view);
-        mWebView.getSettings().setJavaScriptEnabled(true);
-        mWebView.loadUrl("https://www.baidu.com");
+        mWebView.loadUrl("https://www.cnblogs.com/softlin/p/5500003.html");
     }
 }
